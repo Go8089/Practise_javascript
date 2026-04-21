@@ -4,46 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            margin:0%;
-            padding:0%;
-        }
-        body{
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
-        }
-       img{
-        width:100px;
-        height:100px;
-       }
-    </style>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        background-color: rgb(83, 80, 80);
+    }
+    input{
+       min-height: 30px;
+       min-width: 500px;
+    }
+    button{
+       min-height: 35px; 
+       min-width: 70px;
+        border-radius: 35px;
+    }
+    .search{
+     border-radius: 35px;
+    }
+</style>
 </head>
 <body>
     <header>
-        <h1>Make Birthday</h1>
+        <h1>To check even or odd number</h1>
     </header>
     <main>
-        <sectrion>
-            <div>
-                <p>It's mu birthdaty</p>
-            </div>
-            <div>
-                <p>On the 12th may</p>
-            </div>
-            <div>
-                <img src="https://www.penligent.ai/hackinglabs/wp-content/uploads/2026/04/Claude-Mythos-Preview-and-the-New-Zero-Day-Era.png"/>
-            </div>
-        </sectrion>
+        <form id = "myform">
+            <input type="number" id ="evenodd" class="search"/>
+            <button type="submit">Click</button>
+        </form>
     </main>
-    <script>
-        (function ini(){alert("Hello sir")}());
-    </script>
-    <script src = "./nullish.js"></script>
-    <script src = "./cloning.js"></script>
-   <script src = "./programs.js"></script> 
+    <script src="./evenodd.js"></script>
 </body>
 </html>
