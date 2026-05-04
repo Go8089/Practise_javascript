@@ -4,7 +4,7 @@ document.querySelector("#myform").addEventListener("submit",(e)=>{
   
    if(vars % 2 == 0){
    alert("even");
-   }else {
+   }else{
    alert("odd");
    }
 });
